@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Temples</title>
+    <link rel="stylesheet" href="css/temple.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main_header">
+        <header>
+            <div class="navbar">
+                <div class="logo"><a href="#">Temples</a></div>
+                <ul class="links">
+                    <li><a class="home" href="#">Home</a></li>
+                    <li><a  href="about.html">About</a></li>
+                    <li><a  href="help.html">Help</a></li>
+                    <li><a  href="contact.html">Contact</a></li>
+                </ul>
+                <a href="login.html" class="action_btn">Log-in</a>
+                <div onclick="menu()" class="bars">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="texts">
+                <p id="changing">Temples</p>
+            </div>
+
+            <div class="dropdown">
+                <li><a class="home" href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html" class="action_btn">Log-in</a></li>
+            </div>
+        </header>
+    </div>
+    <!-- body -->
+    <div class="body">
+        <div class="container1 contain">
+            <div class="type">
+                <h2>Recommended Temples</h2>
+            </div>
+            <div class="cards">
+                <div class="card1 boX">
+                    <div class="image">
+                        <img src="images/pashupati_temple.jpg" alt="pashupatinath_temple">
+                    </div>
+                    <div class="rating">
+                        <span>Rating :</span>
+                        <i class="fas fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div class="sdetail">
+                        <span id="name">Pashupatinath</span><br>
+                        <span id="loctn">Kathmandu, Nepal</span>
+                    </div>
+                    <div class="btn">
+                        <button>Explore</button>
+                    </div>
+                </div>
+                <div class="card2 boX">
+                    <div class="image">
+                        <img src="images/Muktinath_temple.jpg" alt="Muktinath_temple">
+                    </div>
+                    <div class="rating">
+                        <span>Rating :</span>
+                        <i class="fas fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div class="sdetail">
+                        <span id="name">Muktinath</span><br>
+                        <span id="loctn">Mustang, Nepal</span>
+                    </div>
+                    <div class="btn">
+                        <button>Explore</button>
+                    </div>
+                </div>
+                <div class="card3 boX">
+                    <div class="image">
+                        <img src="images/Talbarahi_temple.jpg" alt="Talbarahi_temple">
+                    </div>
+                    <div class="rating">
+                        <span>Rating :</span>
+                        <i class="fas fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div class="sdetail">
+                        <span id="name">Talbarahi</span><br>
+                        <span id="loctn">Pokhara, Nepal</span>
+                    </div>
+                    <div class="btn">
+                        <button>Explore</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container2 contain">
+            <div class="type">
+                <h2>Most Visited Temples</h2>
+            </div>
+            <div class="cards">
+                <div class="card1 boX">
+                    <div class="image">
+                        <img src="images/mahadev.jpg" alt="shiva statue">
+                    </div>
+                    <div class="rating">
+                        <span>Rating :</span>
+                        <i class="fas fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div class="sdetail">
+                        <span id="name">Shiva statue</span><br>
+                        <span id="loctn">Saga, Nepal</span>
+                    </div>
+                    <div class="btn">
+                        <button>Explore</button>
+                    </div>
+                </div>
+                <div class="card2 boX">
+                    <div class="image">
+                        <img src="images/chandragiri.jpg" alt="chandragiri_temple">
+                    </div>
+                    <div class="rating">
+                        <span>Rating :</span>
+                        <i class="fas fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div class="sdetail">
+                        <span id="name">Chandragiri</span><br>
+                        <span id="loctn">Thankot, Nepal</span>
+                    </div>
+                    <div class="btn">
+                        <button>Explore</button>
+                    </div>
+                </div>
+                <div class="card3 boX">
+                    <div class="image">
+                        <img src="images/janakpurdham.jpg" alt="Janakpurdham_temple">
+                    </div>
+                    <div class="rating">
+                        <span>Rating :</span>
+                        <i class="fas fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div class="sdetail">
+                        <span id="name">Janakpur Dham</span><br>
+                        <span id="loctn">Janakpur, Nepal</span>
+                    </div>
+                    <div class="btn">
+                        <button>Explore</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container3 contain">
+            <div class="type">
+                <h2>Oldest Temples</h2>
+            </div>
+            <div class="cards">
+                <div class="card1 boX">
+                    <div class="image">
+                        <img src="images/halesi.png" alt="halasi_temple">
+                    </div>
+                    <div class="rating">
+                        <span>Rating :</span>
+                        <i class="fas fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div class="sdetail">
+                        <span id="name">Halesi Mahadev</span><br>
+                        <span id="loctn">Khotang, Nepal</span>
+                    </div>
+                    <div class="btn">
+                        <button>Explore</button>
+                    </div>
+                </div>
+                <div class="card2 boX">
+                    <div class="image">
+                        <img src="images/pashupati_temple.jpg" alt="Pashupatinath_temple">
+                    </div>
+                    <div class="rating">
+                        <span>Rating :</span>
+                        <i class="fas fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div class="sdetail">
+                        <span id="name">Pashupatinath</span><br>
+                        <span id="loctn">Kathmandu, Nepal</span>
+                    </div>
+                    <div class="btn">
+                        <button>Explore</button>
+                    </div>
+                </div>
+                <div class="card3 boX">
+                    <div class="image">
+                        <img src="images/changunarayen.jpg" alt="changunarayen_temple">
+                    </div>
+                    <div class="rating">
+                        <span>Rating :</span>
+                        <i class="fas fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div class="sdetail">
+                        <span id="name">Changu Narayen</span><br>
+                        <span id="loctn">Bhaktapur, Nepal</span>
+                    </div>
+                    <div class="btn">
+                        <button>Explore</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <div class="titles">
+                <div class="title1 head">
+                    <h1>About us</h1>
+                    <div class="content">
+                        <a href="#">Who are we?</a>
+                        <a href="#">What do we do?</a>
+                        <a href="#">Why we started?</a>
+                    </div>
+                </div>
+                    
+                <div class="title2 head">
+                    <h1>Learn more</h1>
+                    <div class="content">
+                        <a href="#">click here</a>
+                        <a href="#">click up</a>
+                    </div>
+                </div>
+                    
+                <div class="title3 head">
+                    <h1>Connect with us</h1>
+                    <div class="content icon">
+                        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-discord"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>  
+                </div>    
+            </div>
+        </footer>
+
+    </div>
+    <script src="./Js/temple.js"></script>
+</body>
+</html>
