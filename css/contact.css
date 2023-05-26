@@ -123,44 +123,7 @@ header .contact {
 
 
 
-@media (max-width:999px){
-    .navbar a {
-        font-size: 28px;
-    }
-    .texts #changing{
-        font-size: 35px;
-    }
-}
-@media (max-width:771px){
-    .texts {
-        padding-top: 300px;
-    }
-}
-@media (max-width:669px) {
-    .navbar .links,
-    .navbar .action_btn{
-        display: none;
-    }
-    .navbar .bars {
-        display: block;
-    }
-    .dropdown {
-        display: block;
-        left: 2rem;
-        width: unset;
-    }
-    .dropdown a {
-        font-size: 20px;
-    }
-}
-@media (max-width:455px){
-    .cards .image {
-        width: 370px;
-    }
-    .texts {
-        padding-top: 280px;
-    }
-}
+
  /* body */
 
 .main {
@@ -271,4 +234,63 @@ button {
 }
 .Dark-mode i {
     color: white;
+}
+
+
+@media (max-width:999px){
+    .navbar a {
+        font-size: 28px;
+    }
+    .texts #changing{
+        font-size: 35px;
+    }
+}
+@media (max-width:771px){
+    .texts {
+        padding-top: 300px;
+    }
+}
+@media (max-width:669px) {
+    .navbar .links,
+    .navbar .action_btn{
+        display: none;
+    }
+    .navbar .bars {
+        display: block;
+    }
+    .dropdown {
+        display: block;
+        left: 2rem;
+        width: unset;
+    }
+    .dropdown a {
+        font-size: 20px;
+    }
+}
+@media (max-width:455px){
+    .cards .image {
+        width: 370px;
+    }
+    .texts {
+        padding-top: 280px;
+    }
+    p {
+        font-size: 22px;
+    }
+    .main {
+        margin-left: 1.3rem;
+    }
+    .fb {
+        font-size: 17px;
+    }
+}
+
+/* for footer responsive */
+@media (max-width:455px) {
+    h1 {
+        font-size: 20px;
+    }
+    .content > a {
+        font-size: 16px;
+    }
 }
