@@ -288,9 +288,9 @@ button {
 /* for footer responsive */
 @media (max-width:455px) {
     h1 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .content > a {
-        font-size: 16px;
+        font-size: 14px;
     }
 }

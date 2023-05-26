@@ -15,7 +15,7 @@ form {
     margin-top: 3rem;
     background-color: white;
     padding: 20px 20px;
-    height: 1020px;
+    min-height: 1020px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px #333;
     margin-bottom: 40px;
