@@ -189,6 +189,7 @@ footer {
 .titles > .head{
     display: flex;
     flex-direction: column;
+    color: #008000;
 }
 .content {
     display: flex;

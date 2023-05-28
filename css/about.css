@@ -223,6 +223,7 @@ footer {
 .titles > .head{
     display: flex;
     flex-direction: column;
+    color: green;
 }
 .content {
     display: flex;
