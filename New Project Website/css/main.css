@@ -49,7 +49,18 @@ button {
     font-size: 20px;
     color: green;
 }
+button:hover {
+    background-color: green;
+    color: white;
+    transition: ease 0.3s;
+}
 .start > button {
     border-radius: 3px;
     width: 200px;
+    background-color: yellow;
+    transition: ease 0.5s;
+}
+.start > button:hover {
+    background-color: green;
+    color: white;  
 }
